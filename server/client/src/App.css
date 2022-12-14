@@ -1,0 +1,41 @@
+@media screen and (max-width:600px){
+    .Home{
+        display:flex;
+        flex-direction:column-reverse;
+        align-content: space-between;
+    }
+    .home-image{
+        width:60vw;
+        height:auto;
+        margin-left:10%;
+    }
+    .home-text{
+        margin-left:5%;
+    }
+    .linkone{
+        margin: 1.5rem;
+    }
+    .nav-links{
+        font-size: 1.5rem;
+    }
+    .nav-button{
+        font-size: 1.5rem;
+        margin-top:3%;
+    }
+    .nav-list{
+        width:100vw;
+    }
+
+    .nav-dp{
+        height: 15%;
+        width: 10%;
+        border-radius: 50%;
+        margin-top:2%
+    }
+    .submit-data{
+        width:auto;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+    }
+}
